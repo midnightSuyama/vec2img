@@ -15,6 +15,7 @@ Installation
 ------------
 
 ::
+
     $ pip install vec2img
 
 -----
@@ -22,6 +23,7 @@ Usage
 -----
 
 ::
+
     $ vec2img samples.vec -o images -w 24 -h 24 -e png
 
 ----
@@ -29,6 +31,7 @@ Help
 ----
 
 ::
+
     $ vec2img --help
     usage: vec2img -o OUT [-w WIDTH] [-h HEIGHT] [-e EXT] [--version] [--help] vec
     
