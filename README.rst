@@ -2,24 +2,33 @@
 vec2img
 =======
 
+.. image:: https://travis-ci.org/midnightSuyama/vec2img.svg?branch=master
+    :target: https://travis-ci.org/midnightSuyama/vec2img
+
+.. image:: https://badge.fury.io/py/vec2img.svg
+    :target: https://badge.fury.io/py/vec2img
+
 convert OpenCV samples file to images
 
 ------------
 Installation
 ------------
 
+::
     $ pip install vec2img
 
 -----
 Usage
 -----
 
+::
     $ vec2img samples.vec -o images -w 24 -h 24 -e png
 
 ----
 Help
 ----
 
+::
     $ vec2img --help
     usage: vec2img -o OUT [-w WIDTH] [-h HEIGHT] [-e EXT] [--version] [--help] vec
     
